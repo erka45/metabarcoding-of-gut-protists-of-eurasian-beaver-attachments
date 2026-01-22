@@ -1,0 +1,23 @@
+PERMANOVA by Sex
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = bray ~ Sex, data = metadata_info)
+         Df SumOfSqs      R2      F Pr(>F)
+Model     1   0.3343 0.03538 1.3935  0.128
+Residual 38   9.1157 0.96462              
+Total    39   9.4500 1.00000              
+
+PERMANOVA by Population
+Permutation test for adonis under reduced model
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = bray ~ Area, data = metadata_info)
+         Df SumOfSqs      R2     F Pr(>F)   
+Model     1    0.835 0.08836 3.683  0.002 **
+Residual 38    8.615 0.91164                
+Total    39    9.450 1.00000                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
