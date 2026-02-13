@@ -1,0 +1,114 @@
+{
+    "version": 3,
+    "metadata": {
+        "program": "genesis v0.30.0",
+        "invocation": "",
+        "created": "2025-03-06 20:36:24"
+    },
+    "tree": "(GQ223285.1.1997_U_Opalozoa_Blastocystis:0.007151{0},DQ186645.1.1977_U_Opalozoa_Blastocystis:0.005152{1},(KC148208.1.1983_U_Opalozoa_Blastocystis:0.046171{2},((((((AY266474.1.1848_U_Opalozoa_Blastocystis:0.070671{3},EU427511.1.1748_U_Opalozoa_Blastocystis:0.2306{4}):0.025069{5},(((AB107970.1.1779_U_Opalozoa_Blastocystis:0.0571{6},(AB071000.1.1778_U_Opalozoa_Blastocystis:0.005997{7},(AY244619.1.1778_U_Opalozoa_Blastocystis:0.00079{8},KF002512.1.1649_U_Opalozoa_Blastocystis:0.000001{9}):0.011136{10}):0.052473{11}):0.027376{12},KC148207.1.1728_U_Opalozoa_Blastocystis:0.103249{13}):0.023113{14},((AB070992.1.1770_U_Opalozoa_Blastocystis:0.027465{15},(HQ909889.1.1734_U_Opalozoa_Blastocystis:0.01093{16},HQ909891.1.1733_U_Opalozoa_Blastocystis:0.018234{17}):0.007496{18}):0.000001{19},(AB070988.1.1769_U_Opalozoa_Blastocystis:0.010773{20},(EU445489.1.1728_U_Opalozoa_Blastocystis:0.006138{21},HQ909890.1.1732_U_Opalozoa_Blastocystis:0.010894{22}):0.006156{23}):0.010821{24}):0.107559{25}):0.017808{26}):0.072229{27},(((AY266472.1.1794_U_Opalozoa_Blastocystis:0.03897{28},AY266475.1.1787_U_Opalozoa_Blastocystis:0.050838{29}):0.038328{30},(AY266471.1.1840_U_Opalozoa_Blastocystis:0.000001{31},AY590115.1.1774_U_Opalozoa_Blastocystis:0.004464{32}):0.198049{33}):0.076185{34},AY266467.1.1836_U_Opalozoa_Blastocystis:0.188034{35}):0.02173{36}):0.000001{37},(((((AB070998.1.1784_U_Opalozoa_Blastocystis:0.000001{38},AY266469.1.1769_U_Opalozoa_Blastocystis:0.003892{39}):0.010032{40},EF468654.1.1782_U_Opalozoa_Blastocystis:0.02931{41}):0.018763{42},((((AY618266.1.1781_U_Opalozoa_Blastocystis:0.004793{43},GU992419.1.1737_U_Opalozoa_Blastocystis:0.000001{44}):0.00073{45},(((AB107961.1.1770_U_Opalozoa_Blastocystis:0.00502{46},AY618267.1.1675_U_Opalozoa_Blastocystis:0.016145{47}):0.001778{48},AY135404.1.1722_U_Opalozoa_Blastocystis:0.008526{49}):0.00336{50},AB107968.1.1770_U_Opalozoa_Blastocystis:0.009945{51}):0.018316{52}):0.01687{53},(((AY618265.1.1779_U_Opalozoa_Blastocystis:0.019714{54},EU445491.1.1721_U_Opalozoa_Blastocystis:0.00697{55}):0.014107{56},(GU992412.1.1694_U_Opalozoa_Blastocystis:0.002223{57},AY956324.1.1666_U_Opalozoa_Blastocystis:0.005912{58}):0.010504{59}):0.06349{60},EF209020.1.1726_U_Opalozoa_Blastocystis:0.142524{61}):0.043978{62}):0.061159{63},AF538348.1.1707_U_Opalozoa_Blastocystis:0.016012{64}):0.079928{65}):0.026451{66},(EU427515.1.1772_U_Opalozoa_Blastocystis:0.036681{67},(KC148209.1.1765_U_Opalozoa_Blastocystis:0.063998{68},(KC148205.1.1772_U_Opalozoa_Blastocystis:0.027133{69},KC148206.1.1708_U_Opalozoa_Blastocystis:0.024967{70}):0.028568{71}):0.006942{72}):0.023298{73}):0.043168{74},((AB070994.1.1742_U_Opalozoa_Blastocystis:0.03611{75},AF408426.1.1737_U_Opalozoa_Blastocystis:0.013467{76}):0.08516{77},((((((((CABX01000103.5895.7714_U_Opalozoa_Blastocystis:0.009959{78},CABX01000035.18630.20441_U_Opalozoa_Blastocystis:0.003112{79}):0.015764{80},AF408427.1.1805_U_Opalozoa_Blastocystis:0.00711{81}):0.000001{82},CABX01000024.22644.24453_U_Opalozoa_Blastocystis:0.005152{83}):0.001131{84},KF447161.1.1819_U_Opalozoa_Blastocystis:0.002774{85}):0.002156{86},(((CABX01000060.103335.105149_U_Opalozoa_Blastocystis:0.001495{87},AY135412.1.1752_U_Opalozoa_Blastocystis:0.007556{88}):0.000001{89},(CABX01000063.19.1388_U_Opalozoa_Blastocystis:0.022932{90},CABX01000153.6.1249_U_Opalozoa_Blastocystis:0.017871{91}):0.276847{92}):0.0051{93},(CABX01000080.218346.220159_U_Opalozoa_Blastocystis:0.000001{94},(CABX01000085.2126.3932_U_Opalozoa_Blastocystis:0.003692{95},AY590108.1.1756_U_Opalozoa_Blastocystis:0.006747{96}):0.001442{97}):0.003642{98}):0.005211{99}):0.001718{100},AB070991.1.1803_U_Opalozoa_Blastocystis:0.004073{101}):0.029526{102},(AY135410.1.1763_U_Opalozoa_Blastocystis:0.001274{103},AY135409.1.1760_U_Opalozoa_Blastocystis:0.017503{104}):0.102949{105}):0.009525{106},(((DQ366343.1.1797_U_Opalozoa_Blastocystis:0.002309{107},EF079872.1.1795_U_Opalozoa_Blastocystis:0.010045{108}):0.002557{109},EU082109.1.1796_U_Opalozoa_Blastocystis:0.008314{110}):0.019411{111},AB107973.1.1796_U_Opalozoa_Blastocystis:0.020004{112}):0.017057{113}):0.208361{114}):0.127519{115}):0.044715{116}):0.03463{117},(EF209017.1.1728_U_Opalozoa_Blastocystis:0.029286{118},(EF209019.1.1718_U_Opalozoa_Blastocystis:0.126911{119},EF209018.1.1703_U_Opalozoa_Blastocystis:0.142663{120}):0.044085{121}):0.193409{122}):0.137137{123},(KC148210.1.1907_U_Opalozoa_Blastocystis:0.118704{124},EF209016.1.1783_U_Opalozoa_Blastocystis:0.060236{125}):0.143869{126}):0.159702{127}):0.120825{128});",
+    "fields": [ "edge_num", "likelihood", "like_weight_ratio", "distal_length", "pendant_length" ],
+    "placements": [
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.125994 ]
+            ],
+            "n": [ "Arch|seq11" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.130523 ]
+            ],
+            "n": [ "Arch|seq15" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.125871 ]
+            ],
+            "n": [ "Arch|seq18" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.125291 ]
+            ],
+            "n": [ "M1|seq31" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.126702 ]
+            ],
+            "n": [ "M2|seq34" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.131215 ]
+            ],
+            "n": [ "TarEuk|seq88" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.129787 ]
+            ],
+            "n": [ "M1|seq34" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.139655 ]
+            ],
+            "n": [ "TarEuk|seq313" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 2.77556e-17, 0.125209 ]
+            ],
+            "n": [ "M2|seq22" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 2.77556e-17, 0.145317 ]
+            ],
+            "n": [ "M2|seq81" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.140595 ]
+            ],
+            "n": [ "TarEuk|seq242" ]
+        },
+        {
+            "p": [
+                [ 122, 0, 1, 0.00951727, 0.127849 ]
+            ],
+            "n": [ "Arch|seq21" ]
+        },
+        {
+            "p": [
+                [ 122, 0, 1, 0.00941564, 0.127183 ]
+            ],
+            "n": [ "M2|seq23" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 2.77556e-17, 0.138096 ]
+            ],
+            "n": [ "TarEuk|seq326" ]
+        },
+        {
+            "p": [
+                [ 122, 0, 1, 0.00743978, 0.12613 ]
+            ],
+            "n": [ "Arch|seq32" ]
+        },
+        {
+            "p": [
+                [ 122, 0, 1, 0.00734816, 0.12548 ]
+            ],
+            "n": [ "M2|seq27" ]
+        },
+        {
+            "p": [
+                [ 123, 0, 1, 0, 0.134281 ]
+            ],
+            "n": [ "M2|seq35" ]
+        }
+    ]
+}
