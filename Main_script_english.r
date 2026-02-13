@@ -1,4 +1,3 @@
-setwd("~/Documents/Documents/Magister/Thesis/Analysis")
 
 # === Libraries ===
 library(readxl)
@@ -101,3 +100,47 @@ print(adonis2(bray ~ Sex, data = metadata_info))
 cat("\nPERMANOVA by Population\n")
 print(adonis2(bray ~ Area, data = metadata_info))
 sink()
+
+
+# ===# === NMDS analysis for beaver ASV data ===
+
+library(vegan)
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+
+# 1. Normalize ASV matrix (log-transformed already)
+# If needed, use Hellinger transformation:
+asv_hell <- decostand(asv_log, method = "hellinger")
+
+# 2. Create NMDS (non-metric multidimensional scaling)
+set.seed(123)  # reproducibility
+nmds_result <- metaMDS(asv_hell, k = 2, trymax = 100, autotransform = FALSE)
+
+# 3. Stressplot to assess model fit
+pdf("nmds_stressplot.pdf")
+stressplot(nmds_result)
+dev.off()
+
+# 4. Extract NMDS coordinates
+nmds_coords <- as.data.frame(scores(nmds_result, display = "sites"))
+nmds_coords$SampleID <- metadata_info$SampleID
+nmds_coords$Population <- metadata_info$Area
+nmds_coords$Sex <- metadata_info$Sex
+
+# 5. Calculate distance from origin (optional, not used here)
+nmds_coords$Distance <- sqrt(nmds_coords$NMDS1^2 + nmds_coords$NMDS2^2)
+
+# 6. NMDS plot with labels for all samples
+p_nmds <- ggplot(nmds_coords, aes(x = NMDS1, y = NMDS2, color = Sex, shape = Population)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_text_repel(aes(label = SampleID),
+                  size = 4, box.padding = 0.5, point.padding = 0.3, segment.alpha = 0.5) +
+  scale_color_manual(values = c("F" = "#e41a1c", "M" = "#377eb8")) +
+  scale_shape_manual(values = c("Sumava" = 16, "Sluknovsko" = 17)) +
+  labs(title = "NMDS of Microbiota by sex and population",
+       x = "NMDS1", y = "NMDS2") +
+  theme_minimal(base_size = 14) +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold"))
+
+ggsave("nmds_by_sex_population_labeled.pdf", plot = p_nmds, width = 8, height = 6)
